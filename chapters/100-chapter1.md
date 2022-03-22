@@ -1,8 +1,18 @@
-# Lorem ipsum
+# Einleitung
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+Mit wachsendem Umfang einer Webanwendung ist die Datenverwaltung, auch genannt State Management, unabdingbar. 
+Es gibt heutzutage allerdings zahlreiche Frameworks mit noch mehr Bibliotheken mit unterschiedlichen Ansätzen. 
+Für meine Thesis habe ich mir drei beliebte Bibliotheken für einen Vergleich herausgesucht. Diese sind React[^1], React-Redux[^2] und React-Recoil[^3].
+Für einen aussagekräftigen Vergleich dieser Bibliotheken wird eine To-do App programmiert, in denen die Vor- und Nachteile verglichen werden sollen.
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi [@kpohl]. Lorem ipsum dolor sit amet [^1]
+## State Management
 
-[^1]: Ich bin eine Fußnote
+State Management [@react-js] steht für eine nicht veränderbare Einheit an Daten. Soll etwas verändert werden, muss eine Kopie des alten States erstellt und erweitert werden.
+Will man einen Array mit .push() erweitern, wird das alte Array überschrieben. Das ist nicht erlaubt. 
+
+
+[^1]: https://reactjs.org/ 
+[^2]: https://react-redux.js.org/
+[^3]: https://recoiljs.org/
+
 
