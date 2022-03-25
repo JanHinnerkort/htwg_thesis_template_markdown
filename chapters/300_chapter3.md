@@ -29,7 +29,7 @@ Alle Reducer werden vom Store verwaltet \ref={store}
 Nach dieser Vorbereitung kann in der DOM dann ein Button mit einer Dispatch-Funktion angelegt werden und der User kann sich einloggen.
 
 ## Performance
-Redux hat eigene Performance Optimierungen, die dafür sorgen, dass ausschließlich Komponenten neu gerendert werden, die sich aktuell verändert haben
+Redux hat eigene Performance Optimierungen, die dafür sorgen, dass ausschließlich Komponenten neu gerendert werden, die sich aktuell verändert haben. Damit ist es auch als globaler State sehr gut geeignet.
 
 ## Wiederverwertbarkeit
 Nur Dispatcher müssen in den Komponenten aufgerufen werden. 
@@ -51,3 +51,21 @@ Nur das Erstellen neuer Funktionen fordert, dass man sich wieder mit der komplex
 ## Community
 
 ## Verbreitung
+
+## Vorteile
+-	Einfacher Überblick
+-	vereinfachtes Debuggen, da für alle Actions und dem State eine Logausgabe gemacht werden kann
+-	Nachvollziehbar
+-	hat eine riesige Community
+-	dadurch findet man leicht Hilfe
+-	man kann das Wissen für verschiedenste Apps verwenden
+-	State ist nicht veränderbar
+-	ermöglicht Einsatz von Undo/Redo-Funktionen
+-	Persistenz
+-	ermöglicht Server-side Rendering
+-	durch strikte Vorgaben des Programmierdesigns ist es auch für Programmierer möglich Fremdcode zu warten
+
+## Nachteile
+-	Viel Boiler Plate Code
+-	bestehende Projekte müssen komplett umstrukturiert werden
+-	Neue Funktionen einzufügen ist aufwendig

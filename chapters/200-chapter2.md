@@ -32,8 +32,13 @@ Da React aber schon seit 2013 existiert, gibt es ein Problem mit veralteten Quel
 ## Boiler Plate Code
 
 ## Community
+React hat die bisher größte Community, wenn es um State Management Libraries geht. Daher ist es einfach an Beispiele aus unterschiedlichsten Anwendungsbereichen zu kommen.
 
 ## Verbreitung
 
 ## Toolkit und useReducer
 Das sind Libraries, die die Programmierung in React noch einmal erleichtern sollen. Laut .... soll React damit Redux ,dank der  verbesserten Übersichtlichkeit, ganz zu ersetzen.
+
+## Vorteile
+
+## Nachteile
