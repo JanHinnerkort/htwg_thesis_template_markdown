@@ -44,3 +44,12 @@ ohne Erscheinungsjahr:  o.J.
 
 ein Internetlink hat nichts in der Zitation zu suchen!!!!!!!!!!
 •	Bibliografische Angaben sind normalerweise auf der 3. Seite zu finden.
+
+
+Recherche in der HS-Flensburg Bibliothek und in der von ihr empfohlenen Webseite bookboon.com ergaben zu den Suchanfagen:
+- State Management
+- React
+- ReactJS
+- Redux
+- Recoil
+insgesammt 0 Ergebnisse. Primärliteratur aus dieser Quelle kann ich damit abhaken.
