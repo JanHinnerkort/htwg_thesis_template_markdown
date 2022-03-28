@@ -1,9 +1,12 @@
 # React-Redux
-Redux ist eines der ersten reactbasierten Bibliotheken. Es bietet die Möglichkeit mit einem Store alle States an einer Stelle zu halten. Dadurch wird es überschaubar und leichter zu bedienen. Das Einrichten dauert etwas. Wenn Redux in ein bereits bestehendes Projekt implementiert werden soll, muss das ganze Projekt dafür umgestellt werden, da die ganze Funktionalität in die Reducer gehört.
+Redux ist eines der ersten reactbasierten Bibliotheken.  Es bietet die Möglichkeit mit einem Store alle States an einer Stelle zu halten. Dadurch wird es überschaubar und leichter zu bedienen. Das Einrichten dauert etwas. Wenn Redux in ein bereits bestehendes Projekt implementiert werden soll, muss das ganze Projekt dafür umgestellt werden, da die ganze Funktionalität in die Reducer gehört.
 Die Anwendung ist danach aber einfach und verständlich.
 
+## Bestandteile
+Redux wird mit einem Store, Actions und Reducern aufgebaut. Der Store hält dabei den State. Die Actions werden durch die Komponeneten verwendet und von den Reducern ausgewertet. 
+
 ## Lernkurve
-Redux braucht etwa einen Monat, da die Projektarchitektur deutlich anspruchsvoller ist. Außerdem kommt es zu viel Boiler Plate Code, da man für die Reducer Actions braucht, für die in Typescript vorweg noch Typen und Interfaces angelegt werden müssen. Steht das Gerüst aber erst einmal ist es sehr übersichtlich, da man alle Funktionen im Reducer an einer Stelle hortet und nur noch abrufen muss.
+Redux braucht etwa einen Monat, da die Projektarchitektur deutlich anspruchsvoller ist. Außerdem kommt es zu viel Boiler Plate Code, da man für die Reducer Actions braucht, für die in Typescript vorweg noch Typen und Interfaces angelegt werden müssen. Steht das Gerüst aber erst einmal ist es sehr übersichtlich, da man alle Funktionen im Reducer an einer Stelle hortet und nur noch abrufen muss. Da man Actions und Reducer per Logausgabe direkt ausgeben kann, vereinfacht es das Debuggen.
 
 ## App-Aufbau
 Angenommen man möchte die Athentifikation des Benutzers auf true setzen. Dafür muss man zuerst ein Interface für die Login-Action schreiben: \ref{lst:interface}
@@ -49,6 +52,7 @@ Nur das Erstellen neuer Funktionen fordert, dass man sich wieder mit der komplex
 
 
 ## Community
+Die Community von Redux ist riesig. Auf Stackoverflow finden sich nach dem heutigen Stand über 33.660 Fragen, von denen 21.643 beantwortet wurden.
 
 ## Verbreitung
 

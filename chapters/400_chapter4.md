@@ -1,6 +1,6 @@
 # Recoil
-Recoil wurde von den Machern von React geschrieben. Ist sehr neu (2020) und löst eigentlich nur das gleiche Problem, wie alle anderen State Management Bibliotheken, die es schon gibt.
-Durch seinen Minimalismus erfreut es sich in der React-Community gerade für kleinere Programme großer Beliebtheit. In Gihub hat es bereits 16.200 Sterne erhalten. Da die Library aber noch sehr jung ist, findet man noch wenige Einträge oder Hilfe.
+Recoil wurde von den Machern von React geschrieben und hat daher schon schnell Interesse auf sich gezogen. Es ist sehr neu (2020). 
+Durch seinen Minimalismus erfreut es sich in der React-Community trotzdem gerade bei kleineren Programmen großer Beliebtheit. In Gihub hat es bereits 16.200 Sterne erhalten. Da die Library aber noch sehr jung ist, findet man noch wenige Einträge oder Hilfe.
 
 ## Lernkurve
 
