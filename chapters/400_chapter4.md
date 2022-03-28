@@ -26,6 +26,11 @@ Da der State zentral in einem Javascriptobjekt gehalten und von jeder Komponenet
 ## Verbreitung
 
 ## Vorteile
+-	ist von allen Bibliotheken am einfachsten zu bedienen
+-	somit schnell zu erlernen
+-	laut Community lassen sich alle Apps, die mit Redux oder MobX laufen, auch mit Recoil programmieren.
+-	Ist für Reactnutzer sehr schnell zu erlernen, da es sehr ähnlich ist.
+-	Kann in der ganzen App den State observieren
 
 ## Nachteile
 
